@@ -73,6 +73,15 @@ img{
 .skill{
     font-size: xx-large;
     color:cornflowerblue;
-    text-decoration: underline;
-   
+    text-decoration: underline;  
+}
+.sub-head, .head{
+    color: rgba(69, 179, 5, 0.591);
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 0.7em;
+    font-style: italic;
+}
+.head{
+    font-style: normal;
 }
