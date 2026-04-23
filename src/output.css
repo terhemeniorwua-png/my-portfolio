@@ -230,8 +230,17 @@
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
+  .pt-\[20\%\] {
+    padding-top: 20%;
+  }
   .pt-\[40\%\] {
     padding-top: 40%;
+  }
+  .pt-\[40\] {
+    padding-top: 40;
+  }
+  .pb-5 {
+    padding-bottom: calc(var(--spacing) * 5);
   }
   .text-3xl {
     font-size: var(--text-3xl);
