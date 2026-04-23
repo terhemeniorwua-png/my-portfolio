@@ -1,0 +1,78 @@
+body{
+    background-image: url(/src/images/pattern-lines.svg), url(/src/images/background-desktop.png);
+}
+img{
+    margin: 2em;
+    height: 88vh;
+    width: 100%; 
+    -ms-overflow-style: none; 
+}
+.parentDiv{
+    display: flex;
+    overflow: hidden;
+    gap: 30px;
+   
+}
+.ul{
+    font-family:fantasy;
+}
+.image, .para{
+    width: 100%;
+    height:90vh;
+    overflow-y: auto;
+}
+.image::-webkit-scrollbar, .para::-webkit-scrollbar{
+    display: none;
+}
+.para{
+    padding-right: 10px;
+    padding-top: 10em;
+    margin:auto;
+    text-align: center;
+}
+.section1{
+    padding-top:15em;
+    color: rgb(91, 190, 193);
+    letter-spacing: 2px;
+}
+.sections{
+    color: rgb(91, 190, 193);
+    letter-spacing: 2px;
+}
+.greeting{
+  text-align: center;
+  font-size: larger;
+  color: rgb(246, 169, 184);
+  font-style: italic;
+  line-height: 400%;
+}
+.Hello{
+    font-size: 2.8em;
+    
+    font-weight: bolder;
+    background: linear-gradient(to right, rgba(160, 237, 224, 0.697), rgba(250, 231, 227, 0.794));
+    background-clip: text;
+    color: transparent;
+    font-style: normal;
+}
+.intro{
+       font-size: 3.5em;
+    background: linear-gradient(to right, rgba(20, 63, 133, 0.732), rgba(250, 231, 227, 0.786));
+    background-clip: text;
+    color: transparent;
+     font-style: normal;
+}
+.about{
+    font-size: 50px;
+    font-weight:bolder;
+    color: rgba(255, 0, 0, 0.611);
+}
+.webkit{
+     -webkit-text-stroke: 0.3vh;
+}
+.skill{
+    font-size: xx-large;
+    color:cornflowerblue;
+    text-decoration: underline;
+   
+}
