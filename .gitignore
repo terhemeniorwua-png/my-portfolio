@@ -23,20 +23,6 @@ Projects
 
 
 
-Movie Discovery Website
-Project Overview
-
-Created a movie application using TMDB API where users can search for movies, view ratings, see cast details, and browse similar movie recommendations.
-
-What I Learned
-API integration basics
-Fetching dynamic data
-JavaScript DOM manipulation
-Working with JSON data
-Creating carousels for cast and similar movies
-Technologies Used
-
-HTML, CSS, JavaScript, TMDB API
 
 Personal Portfolio Website
 Project Overview
@@ -54,17 +40,7 @@ HTML, CSS, JavaScript, Tailwind CSS
 
 Learning Journey
 
-I am currently focused on improving my frontend development skills by building real projects, solving coding problems, and learning professional Git workflows.
 
-I regularly practice:
-
-JavaScript problem solving
-Git and GitHub collaboration
-Website responsiveness
-Clean code structure
-Debugging and troubleshooting
-
-My goal is to grow from a beginner frontend developer into a full-stack software engineer.
 
 Education
 

@@ -178,6 +178,12 @@
   .table {
     display: table;
   }
+  .flex-grow {
+    flex-grow: 1;
+  }
+  .grow {
+    flex-grow: 1;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -217,9 +223,6 @@
   }
   .bg-gray-400 {
     background-color: var(--color-gray-400);
-  }
-  .bg-red-400 {
-    background-color: var(--color-red-400);
   }
   .p-3 {
     padding: calc(var(--spacing) * 3);
