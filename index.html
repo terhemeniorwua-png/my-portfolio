@@ -11,32 +11,32 @@
 <body>
     
   <head>
-    <nav>
-      <ul class="flex justify-end text-lg ul space-x-3 text-cyan-300 p-3">
+    <nav class=" max-md:w-[95%] max-md:overflow-x-hidden max-md:pt-5">
+      <ul class="flex lg:justify-end max-md:justify-around lg:text-lg ul lg:space-x-3 text-cyan-300 p-3">
         <a href="#hero"><li>home</li></a> 
         <a href="#journey"><li>my-journey</li></a> 
         <a href="#about"><li>about-me</li></a>
         <a href="#skill">  <li>skills</li></a>
         <a href="#project"><li>projects</li></a>
-        <a href="#goal"><li>goal</li></a>
+        <a href="#goal" class=" max-md:hidden"><li>goal</li></a>
         <a href="#contact"><li>contact</li></a>
-        <a href="vision">psn-statement</a>
+        <a href="#vision" class=" max-md:hidden">psn-statement</a>
       </ul>
     </nav>
   </head> 
- <div class="parentDiv">
+ <div class="parentDiv max-md:w-[95%] max-md:overflow-x-hidden">
    <div class="image">
-    <img src="src/images/WhatsApp Image 2026-04-22 at 2.19.17 PM (1).jpeg" alt="">
+    <img src="src/images/WhatsApp Image 2026-04-22 at 2.19.17 PM (1).jpeg" alt="" class="max-md:w-[60%] max-md:m-auto max-md:rounded-full">
     </div>
-   <div class="para ">
+   <div class="para">
       <section class="greeting"><a name="hero"></a>
        <h1>
         <span class="Hello">Hello there! <br> I am</span> <br>
-        <p class="Hello"> <b class="intro webkit">Philip</b></p>
-        <small>A software Engineer in traning</small>
+        <p class="Hello"> <b class="intro lg:webkit name">Philip</b></p>
+        <small>A software Engineer in training</small>
       </h1>
       </section><a name="journey"></a>
-      <section class="section1">
+      <section class="section1 max-md:text-center max-md:px-8">
         <h1 class="about webkit">My Journey</h1>
         <p>I am a passionate beginner Frontend Developer with a strong interest in building responsive, user-friendly, and visually appealing websites. I enjoy turning ideas into real web experiences using HTML, CSS, JavaScript, and modern development tools.
 
@@ -45,7 +45,7 @@ As I continue learning software development, I focus on improving my problem-sol
 I am currently building personal projects, improving my Git and GitHub workflow, and learning how to create professional web applications that solve real-world problems.
 </p>
       </section><a name="about"></a>
-      <section class="section1">
+      <section class="section1 max-md:text-center max-md:px-8"">
     <h1 class="about webkit">ABOUT ME</h1> 
     
     <p>
@@ -57,7 +57,7 @@ I believe consistency, practice, and continuous learning are the keys to becomin
 
 </p>
 </section>
-<section class="pt-[40%] border-b-2 border-dotted border-b-fuchsia-500"> <a name="skill"></a>
+<section class="pt-[40%] border-b-2 border-dotted border-b-fuchsia-500 max-md:text-center max-md:px-8""> <a name="skill"></a>
   <h1 class="about webkit">TECHNICAL SKILLS</h1>
   <h3 class="skill webkit">Programming Languages</h3>
   <p class="skills text-orange-400">JavaScript: 
@@ -84,13 +84,9 @@ I believe consistency, practice, and continuous learning are the keys to becomin
       <li class="text-orange-400 pb-5">npm Basics </li>
     </ul>
   </p>
-  
-
-
-
-
-</section><a name="project"></a>
-<section id="project" class="pt-[40%]">
+</section>
+<a name="project"></a>
+<section id="project" class="pt-[40%] max-md:text-center max-md:px-8"">
 <h1 class="about webkit">My projects</h1>
 <p class="sections">
     <h2 class="head">Restaurant Website <br>
@@ -112,7 +108,7 @@ I believe consistency, practice, and continuous learning are the keys to becomin
 <span class="italic bg-gray-400 rounded-2xl px-2">(HTML, CSS)</span>
 </p>
 <a name="goal"></a>
-<section class="sections pt-[40%]">
+<section class="sections pt-[40%] max-md:text-center max-md:px-8"">
     <h1 class="about webkit">MY GOAL</h1>
     <p>I am currently focused on improving my frontend development skills by building real projects, solving coding problems, and learning professional Git workflows.
 
@@ -129,11 +125,11 @@ My goal is to grow from a beginner frontend developer into a full-stack software
 
 
 </section><a name="contact"></a>
-<section class="pt-[40%]">
+<section class="pt-[40%] max-md:text-center max-md:px-8"">
 <h1 class="about">Contacts:</h1>
 <ul class="sections">
   <li><b>Email: </b>
-    <a href="gmail.com/terhemeniorwua@gmail.com" class="underline">My Gmaill</a>
+    <a href="https://mail.google.com/mail/u/0/#inbox" class="underline">My Gmaill</a>
 </li>
   <li></li>
   <li><b>GitHub: </b><a href="https://github.com/terhemeniorwua-png" class="underline">My GitHub page</a></li>
@@ -142,8 +138,8 @@ My goal is to grow from a beginner frontend developer into a full-stack software
 </ul>
 </section>
 <a name="vision"></a>
-    <h1 class="about pt-[20%]">Personal Statement</h1>
-    <p class="sections">
+    <h1 class="about pt-[20%] max-md:text-center max-md:px-8"">Personal Statement</h1>
+    <p class="sections max-md:text-center max-md:px-8"">
 I may be at the beginning of my software engineering journey, but I believe strong developers are built through consistency, discipline, and continuous learning.
 
 Every project I build helps me improve, every bug teaches me something new, and every challenge pushes me closer to becoming the developer I want to be.</p>

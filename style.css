@@ -1,17 +1,18 @@
 body{
     background-image: url(/src/images/pattern-lines.svg), url(/src/images/background-desktop.png);
 }
+
+@media screen and (min-width: 600px){
+   .parentDiv{
+    display: flex;
+    overflow: hidden;
+    gap: 30px;
+} 
 img{
     margin: 2em;
     height: 88vh;
     width: 100%; 
     -ms-overflow-style: none; 
-}
-.parentDiv{
-    display: flex;
-    overflow: hidden;
-    gap: 30px;
-   
 }
 .ul{
     font-family:fantasy;
@@ -30,6 +31,15 @@ img{
     margin:auto;
     text-align: center;
 }
+.intro{
+       font-size: 3.5em;
+    background: linear-gradient(to right, rgba(20, 63, 133, 0.732), rgba(250, 231, 227, 0.786));
+    background-clip: text;
+    color: transparent;
+     font-style: normal;
+}
+}
+
 .section1{
     padding-top:15em;
     color: rgb(91, 190, 193);
@@ -55,8 +65,9 @@ img{
     color: transparent;
     font-style: normal;
 }
-.intro{
-       font-size: 3.5em;
+
+.name{
+      font-size: 2.5em;
     background: linear-gradient(to right, rgba(20, 63, 133, 0.732), rgba(250, 231, 227, 0.786));
     background-clip: text;
     color: transparent;
